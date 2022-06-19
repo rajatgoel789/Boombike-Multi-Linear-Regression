@@ -27,10 +27,17 @@ How well those variables describe the bike demands
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+<!-- You don't have to answer all the questions - just the ones relevant to your project. 
 
+-->
 ## Conclusions
-- Conclusion 1 from the analysis
+- 1. R-sqaured value of train set is 82.07%  and the test set has the value of 79.78% which signifies the model accurately signifies the variance and it is a good model.
+
+2. Our developed MSE is almost 0 on both train and test data set. We used P values and Vif for selection of the features. RFE is also conducted initially for automated variable selection.
+
+3. We can conclude the bike demands is dependent on the actual temperature and the whether it is workday or not. Moreover demands on the winters are more as compared to summer and spring. It is also observed that there is more demand in the months of Oct and Sept. 
+
+4. Overall these interpretation helps to derive meaningfull insigts in the bike rental demand and behaviour of the people. One of the recommendation based on our model is that there should be aggresive marketting in Summer and Spring to boost the demand. Rentals were more in 2019 than 2018 which suggests that over time more people would be exposed by time and there has to a strong analysis done to retain the repeat customers.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
